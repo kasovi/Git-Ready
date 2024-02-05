@@ -18,7 +18,9 @@ public class Collection {
         count = 0;
     }
 
-    
+    /**
+     *
+     */
     private void doubleArray() {
 
         int[] newArray = new int[numArray.length * 2]; //new array with double the length
@@ -30,6 +32,12 @@ public class Collection {
 
     //returns the index of the number specified by the
     //parameter. If the number is not found, it returns -1
+
+    /**
+     * 
+     * @param searchingNum
+     * @return
+     */
     private int search (int searchingNum) {
         for (int i = 0; i < numArray.length; i++) {
             if (numArray[i] == searchingNum) {
